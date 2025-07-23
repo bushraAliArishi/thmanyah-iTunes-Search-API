@@ -10,11 +10,14 @@
     "migrate": "psql -U postgres -d itunes_project -f database-setup.sql"
   },
   "dependencies": {
+    "@fastify/cors": "^8.5.0",
     "@types/pg": "^8.10.0",
+    "@types/pino": "^7.0.4",
     "axios": "^1.6.0",
     "dotenv": "^16.3.0",
     "fastify": "^4.29.1",
-    "pg": "^8.11.0"
+    "pg": "^8.11.0",
+    "pino-pretty": "^13.0.0"
   },
   "devDependencies": {
     "@types/node": "^20.0.0",
